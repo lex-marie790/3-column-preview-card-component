@@ -1,0 +1,71 @@
+@import 'variables';
+@import 'mixins';
+
+.main {
+    display: flex;
+    width: 68rem;
+    height: 29rem;
+    margin: auto;
+    margin-top: 6rem;
+}
+
+.box {
+    width: inherit;
+    padding: 4% 8% 4% 6%;
+}
+
+.one {
+    @include boxColor($base: $boxOne);
+    @include borderRadiusLeft;
+
+    button {
+        @include buttonTextColor($base: $boxOne);
+        
+        &:focus {
+            @include boxColor($base: $boxOne);
+            color: $lightGrey;
+            border: 3px solid white;
+            font-size: 1em;
+            cursor: pointer;
+        }
+    }
+}
+
+.two {
+    @include boxColor($base: $boxTwo);
+    
+    button {
+        @include buttonTextColor($base: $boxTwo);
+
+        &:focus {
+            @include boxColor($base: $boxTwo);
+            color: $lightGrey;
+            border: 3px solid white;
+            font-size: 1em;
+            cursor: pointer;
+        }
+    }
+}
+
+.three {
+    @include boxColor($base: $boxThree);
+    @include borderRadiusRight;
+
+    button {
+        @include buttonTextColor($base: $boxThree);
+
+        &:focus {
+            @include boxColor($base: $boxThree);
+            color: $lightGrey;
+            border: 3px solid white;
+            font-size: 1em;
+            cursor: pointer;
+        }
+    }
+}
+
+
+
+
+
+

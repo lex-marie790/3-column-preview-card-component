@@ -1,0 +1,17 @@
+@mixin borderRadiusLeft {
+    border-bottom-left-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+
+@mixin borderRadiusRight {
+    border-bottom-right-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+@mixin boxColor($base: $boxOne) {
+    background-color: $base;
+}
+
+@mixin buttonTextColor($base: $boxOne) {
+    color: $base;
+}

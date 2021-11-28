@@ -1,0 +1,93 @@
+body {
+  font-size: 15px;
+  font-family: 'Lexend Deca', sans-serif;
+  background-color: #f2f2f2;
+}
+
+h1 {
+  font-family: 'Big Shoulders Display', cursive;
+  color: #f2f2f2;
+  font-size: xx-large;
+}
+
+p {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+button {
+  border-radius: 50rem;
+  width: 10rem;
+  height: 4em;
+  background-color: #f2f2f2;
+  margin-top: 6rem;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 68rem;
+  height: 29rem;
+  margin: auto;
+  margin-top: 6rem;
+}
+
+.box {
+  width: inherit;
+  padding: 4% 8% 4% 6%;
+}
+
+.one {
+  background-color: #e38826;
+  border-bottom-left-radius: 1rem;
+  border-top-left-radius: 1rem;
+}
+
+.one button {
+  color: #e38826;
+}
+
+.one button:focus {
+  background-color: #e38826;
+  color: #f2f2f2;
+  border: 3px solid white;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.two {
+  background-color: #006970;
+}
+
+.two button {
+  color: #006970;
+}
+
+.two button:focus {
+  background-color: #006970;
+  color: #f2f2f2;
+  border: 3px solid white;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.three {
+  background-color: #004241;
+  border-bottom-right-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.three button {
+  color: #004241;
+}
+
+.three button:focus {
+  background-color: #004241;
+  color: #f2f2f2;
+  border: 3px solid white;
+  font-size: 1em;
+  cursor: pointer;
+}
+/*# sourceMappingURL=styles.css.map */
