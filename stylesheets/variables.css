@@ -10,8 +10,20 @@ h1 {
   font-size: xx-large;
 }
 
+@media (max-width: 375px) {
+  h1 {
+    font-size: 3rem;
+  }
+}
+
 p {
   color: rgba(255, 255, 255, 0.75);
+}
+
+@media (max-width: 375px) {
+  p {
+    line-height: 2rem;
+  }
 }
 
 button {
@@ -19,8 +31,21 @@ button {
   width: 10rem;
   height: 4em;
   background-color: #f2f2f2;
-  margin-top: 6rem;
+  margin-top: 5rem;
   font-size: 1em;
   font-weight: bold;
+}
+
+@media (max-width: 375px) {
+  button {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+}
+
+.attribution {
+  margin-top: 300%;
+  font-size: 11px;
+  text-align: center;
 }
 /*# sourceMappingURL=variables.css.map */

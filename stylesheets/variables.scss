@@ -7,20 +7,33 @@ $lightGrey: hsl(0, 0%, 95%);
 $fontFamilyMain: 'Lexend Deca', sans-serif;
 $fontFamilyHeaders: 'Big Shoulders Display', cursive;
 
+$layout-breakpoint-mobile: 375px;
+$layout-breakpoint-desktop: 1440px;
+
 body {
     font-size: 15px;
     font-family: 'Lexend Deca', sans-serif;
     background-color: $lightGrey;
+    // display: flex;
+    // flex-direction: row;
 }
 
 h1 {
     font-family: 'Big Shoulders Display', cursive;
     color: $lightGrey;
     font-size:xx-large;
+
+    @media (max-width: $layout-breakpoint-mobile) {
+        font-size: 3rem;
+    }
 }
 
 p {
     color: hsla(0, 0%, 100%, 0.75);
+   
+    @media (max-width: $layout-breakpoint-mobile) {
+        line-height: 2rem;
+    }
 }
 
 button {
@@ -28,7 +41,18 @@ button {
     width: 10rem;
     height: 4em;
     background-color: $lightGrey;
-    margin-top: 6rem;
+    margin-top: 5rem;
     font-size: 1em;
     font-weight: bold;
+
+    @media (max-width: $layout-breakpoint-mobile) {
+       margin-top: 1rem;
+       margin-bottom: 2rem;
+    }
+}
+
+.attribution {
+    margin-top: 300%;
+    font-size: 11px;
+    text-align: center;
 }

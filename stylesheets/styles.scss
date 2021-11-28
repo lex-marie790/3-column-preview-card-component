@@ -7,11 +7,23 @@
     height: 29rem;
     margin: auto;
     margin-top: 6rem;
+
+    @media (max-width: $layout-breakpoint-mobile) {
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+    }
 }
 
 .box {
     width: inherit;
     padding: 4% 8% 4% 6%;
+
+    @media (max-width: $layout-breakpoint-mobile) {
+        padding:7% 17% 3% 17%;
+        padding-top: 3rem;
+    }
+
 }
 
 .one {
@@ -29,6 +41,12 @@
             cursor: pointer;
         }
     }
+
+    @media (max-width: $layout-breakpoint-mobile) {
+        @include mobileTopBorderRadius;
+        padding-top: 3rem;
+    }
+
 }
 
 .two {
@@ -61,6 +79,10 @@
             font-size: 1em;
             cursor: pointer;
         }
+    }
+
+    @media (max-width: $layout-breakpoint-mobile) {
+        @include mobileBottomBorderRadius;
     }
 }
 

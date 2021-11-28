@@ -4,8 +4,8 @@
 }
 
 @mixin borderRadiusRight {
-    border-bottom-right-radius: 1rem;
-    border-top-right-radius: 1rem;
+    border-bottom-right-radius: .7rem;
+    border-top-right-radius: .7rem;
 }
 
 @mixin boxColor($base: $boxOne) {
@@ -14,4 +14,16 @@
 
 @mixin buttonTextColor($base: $boxOne) {
     color: $base;
+}
+
+@mixin mobileTopBorderRadius {
+    border-top-left-radius: .7rem;
+    border-top-right-radius: .7rem;
+    border-bottom-left-radius: 0;
+}
+
+@mixin mobileBottomBorderRadius {
+    border-bottom-left-radius: .7rem;
+    border-bottom-right-radius: .7rem;
+    border-top-right-radius: 0;
 }
