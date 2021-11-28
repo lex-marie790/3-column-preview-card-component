@@ -28,7 +28,7 @@ Users should be able to:
 
 - ![Desktop](/design/Completed-desktop.jpg)
 - ![Desktop-Active](/design/Completed-active.jpg)
-- ![Mobile](/design/Completed-mobile1.jpg)
+- ![Mobile](/design/completed-mobile1.jpg)
 
 ### Links
 
