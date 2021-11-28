@@ -27,13 +27,8 @@ Users should be able to:
 ### Screenshot
 
 - ![Desktop](/design/Completed-desktop.jpg)
-<<<<<<< HEAD
 - ![Desktop-Active](/design/Completed-active.jpg)
 - ![Mobile](/design/Completed-mobile1.jpg)
-=======
-- ![Desktop-Active](/design/Completed - active.jpg)
-- ![Mobile](/design/completed - mobile1.jpg)
->>>>>>> b05f3a0a4327cf24d6a0ecae5d0e36a9a4370639
 
 ### Links
 
