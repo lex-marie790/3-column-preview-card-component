@@ -26,9 +26,9 @@ Users should be able to:
 
 ### Screenshot
 
-- ![Desktop](/design/Completed - desktop.jpg)
-- ![Desktop-Active](/design/Completed - active.jpg)
-- ![Mobile](/design/Completed - mobile1.jpg)
+- ![Desktop](/design/Completed-desktop.jpg)
+- ![Desktop-Active](/design/Completed-active.jpg)
+- ![Mobile](/design/Completed-mobile1.jpg)
 
 ### Links
 
